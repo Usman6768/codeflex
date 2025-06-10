@@ -3,7 +3,7 @@
 export default {
   providers: [
     {
-      domain: "https://easy-tapir-7.clerk.accounts.dev",
+      domain: process.env.CLERK_FRONTEND_API_URL,
       applicationID: "convex",
     },
   ]
